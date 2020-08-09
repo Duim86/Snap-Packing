@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    
+    <title>Snap-Packing</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo-container">
+                <a href="index.html">
+                    <img src="/images/logo.svg" alt="Snap-Packing">
+                </a>
+            </div>
+            <div id="button">
+                <p>Grupo de Viagens</p>
+                <button id="login" class="entrar" type="button">Entrar</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="col-1">            
+                <h1>Saia do Hype</h1>
+                <h3>Faça novas aventuras, encontre grupos de viagens e conheça novos roteiros, fugindo de pontos turísticos tradicionais!</h3>
+                <div class="form-busca-grupos">
+                    <input type="text" placeholder="Para aonde você quer companhia">
+                    <button type="submit" class="button">Buscar Grupos</button>
+                </div>
+            </div>
+            <div class="col-2">
+                <img src="/images/amicotourist.svg" alt="Turistas">
+            </div>
+        </div>
+        
+        
+        <!-- pop up login -->
+        
+    </main>
+    <div class="login">
+        <div class="bg-modal">
+            <div class="modal-login">                
+                <div class="close">+</div>
+                <img src="/images/logo.svg" alt="logo-snappacking">
+                <form action="">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Senha">
+                    <button type="button" class="button" id="logar">Entrar</button>
+                </form>
+                <button type="button" class="cadastrar">Cadastre-se</button>
+            </div>  
+        </div>  
+    </div>
+    
+    <!-- pop-up cadastro -->
+    <div class="cadastro">
+        <div class="bg-modal">
+            <div class="modal-login">                
+                <div class="fechar">+</div>
+                <img src="/images/logo.svg" alt="logo-snappacking">
+                <form action="">
+                    <input type="text" placeholder="Nome Completo">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Senha">
+                    <button href="" class="button">Cadastre-se</button>
+                </form>
+            </div> 
+        </div>  
+    </div>
+    
+    <script src="/scripts.js"></script>
+</body>
+
+</html>
